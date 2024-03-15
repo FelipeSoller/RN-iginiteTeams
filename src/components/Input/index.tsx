@@ -1,6 +1,6 @@
 import { TextInputProps } from "react-native"
+import { useTheme } from "styled-components/native"
 import { Container } from "./styles"
-import { useTheme } from "styled-components"
 
 export const Input = ({...rest}: TextInputProps) => {
   const { COLORS } = useTheme()
