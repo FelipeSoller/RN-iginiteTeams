@@ -8,7 +8,7 @@ type Props = TouchableOpacityProps & {
 export const Button = ({ title, type = 'PRIMARY', ...rest }: Props) => {
   return (
     <Container type={type} {...rest}>
-      <Title>Button</Title>
+      <Title>{title}</Title>
     </Container>
   )
 }
