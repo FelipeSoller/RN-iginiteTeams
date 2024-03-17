@@ -31,8 +31,6 @@ export const Groups = () => {
   }
 
   useFocusEffect(useCallback(() => {
-    console.log('passou no focus');
-
     fetchGroups()
   }, []))
 
